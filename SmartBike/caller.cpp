@@ -1,21 +1,14 @@
 //
-//  main.cpp
+//  caller.cpp
 //  SmartBike
 //
 //  Created by Juan Briones on 22/05/20.
 //  Copyright © 2020 Juan Briones. All rights reserved.
 //
 
-#include <iostream>
-
+#include <stdio.h>
 #include "JSONParser.hpp"
 
-using namespace std;
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    
+void call() {
     doIt();
-    
-    return 0;
 }

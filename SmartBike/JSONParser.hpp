@@ -15,4 +15,6 @@
 
 void parse(std::list<std::pair<int, int>>);
 
+void doIt();
+
 #endif /* JSONParser_hpp */

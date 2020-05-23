@@ -49,3 +49,32 @@ void parse(list<pair<int, int>> movements) {
     file.close();
     
 }
+
+extern void doIt() {
+    list<pair<int,int>> myList;
+    
+    pair<int, int> p;
+    p.first = 2;
+    p.second = 3;
+    
+    myList.push_back(p);
+    
+    p.first = 6;
+    p.second = 8;
+    
+    myList.push_back(p);
+    
+    p.first = 0;
+    p.second = 9;
+    
+    myList.push_back(p);
+    
+    p.first = 8;
+    p.second = 2;
+    
+    myList.push_back(p);
+    
+    
+    parse(myList);
+    
+}
