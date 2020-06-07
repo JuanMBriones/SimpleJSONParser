@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		888EC9A62478829F00B01078 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888EC9A52478829F00B01078 /* main.cpp */; };
 		888EC9AE247882CD00B01078 /* JSONParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888EC9AC247882CD00B01078 /* JSONParser.cpp */; };
-		888EC9B124789B2900B01078 /* caller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888EC9B024789B2900B01078 /* caller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		888EC9A52478829F00B01078 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		888EC9AC247882CD00B01078 /* JSONParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JSONParser.cpp; sourceTree = "<group>"; };
 		888EC9AD247882CD00B01078 /* JSONParser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JSONParser.hpp; sourceTree = "<group>"; };
-		888EC9AF24789AD900B01078 /* MVC.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MVC.js; sourceTree = "<group>"; };
-		888EC9B024789B2900B01078 /* caller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = caller.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +63,6 @@
 				888EC9A52478829F00B01078 /* main.cpp */,
 				888EC9AC247882CD00B01078 /* JSONParser.cpp */,
 				888EC9AD247882CD00B01078 /* JSONParser.hpp */,
-				888EC9AF24789AD900B01078 /* MVC.js */,
-				888EC9B024789B2900B01078 /* caller.cpp */,
 			);
 			path = SmartBike;
 			sourceTree = "<group>";
@@ -130,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				888EC9AE247882CD00B01078 /* JSONParser.cpp in Sources */,
-				888EC9B124789B2900B01078 /* caller.cpp in Sources */,
 				888EC9A62478829F00B01078 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
